@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400;1,500;1,600&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lora',serif;
+    overflow-x: hidden;
+}
+/*menu*/
+#menu li > a{
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+/*slider img*/
+.carousel-inner{
+    max-height: 500px !important
+}
+.card a{
+    text-decoration: none;
+    color: #000;
+}
+.card a:hover{
+    transform: scale(.7);
+}
+/*footer*/
+#footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#footer .li{
+    text-decoration: none;
+    display: inline-block; 
+}
+/*btn whatsapp*/
+.btn-whatsapp{
+    height: 50px;
+    width: 50px;
+    background-color:#00bb2d;
+    border: 2px solid #fff;
+    position: fixed;
+    right: 20px;
+    bottom: 27px;
+    border-radius: 50%;
+    text-align: center;
+}
+.btn-whatsapp i{
+    color: #fff;
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    text-shadow: 0 0 10px #000;
+}
